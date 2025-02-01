@@ -1,1 +1,97 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
+# Load the dataset
+data = pd.read_csv('employees_dataset.csv')
+
+# Display the first few rows of the dataset
+print(data.head())
+
+# Display basic statistics
+print(data.describe())
+
+# Visualize the distribution of key variables
+plt.figure(figsize=(10, 6))
+sns.histplot(data['age'], kde=True)
+plt.title('Age Distribution')
+plt.show()
+
+plt.figure(figsize=(10, 6))
+sns.countplot(x='department', data=data)
+plt.title('Department Distribution')
+plt.xticks(rotation=45)
+plt.show()
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the dataset
+data = pd.read_csv('employees_dataset.csv')
+
+# Display the first few rows of the dataset
+print(data.head())
+
+# Display basic statistics
+print(data.describe())
+
+# Visualize the distribution of key variables
+plt.figure(figsize=(10, 6))
+sns.histplot(data['age'], kde=True)
+plt.title('Age Distribution')
+plt.show()
+
+plt.figure(figsize=(10, 6))
+sns.countplot(x='department', data=data)
+plt.title('Department Distribution')
+plt.xticks(rotation=45)
+plt.show()
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the dataset
+data = pd.read_csv('employees_dataset.csv')
+
+# Display the first few rows of the dataset
+print(data.head())
+
+# Display basic statistics
+print(data.describe())
+
+# Visualize the distribution of key variables
+plt.figure(figsize=(10, 6))
+sns.histplot(data['age'], kde=True)
+plt.title('Age Distribution')
+plt.show()
+
+plt.figure(figsize=(10, 6))
+sns.countplot(x='department', data=data)
+plt.title('Department Distribution')
+plt.xticks(rotation=45)
+plt.show()
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the dataset
+data = pd.read_csv('employees_dataset.csv')
+
+# Display the first few rows of the dataset
+print(data.head())
+
+# Display basic statistics
+print(data.describe())
+
+# Visualize the distribution of key variables
+plt.figure(figsize=(10, 6))
+sns.histplot(data['age'], kde=True)
+plt.title('Age Distribution')
+plt.show()
+
+plt.figure(figsize=(10, 6))
+sns.countplot(x='department', data=data)
+plt.title('Department Distribution')
+plt.xticks(rotation=45)
+plt.show()
+if 'previous_year_rating' in data.columns:
